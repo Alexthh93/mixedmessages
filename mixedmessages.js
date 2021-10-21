@@ -23,3 +23,22 @@ function to loop through the arrays and randomly select an entry.
     replicate this n (number) of times. */
 
 const topics = ['travels', 'videogames', 'animals'];
+
+const topicSelector = n => {
+  let choice;
+  switch (n) {
+    case 1: 
+      choice = topics[0];
+      break;
+    case 2:
+      choice = topics[1];
+      break;
+    case 3:
+      choice = topics[2];
+      break;
+    default:
+      return `Insert a number from 1 to 3.`;
+  }
+  return choice;
+}
+
