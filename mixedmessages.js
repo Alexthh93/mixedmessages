@@ -21,4 +21,5 @@ function to loop through the arrays and randomly select an entry.
  /* if end === end
       it goes through the loop again until the results are different
     replicate this n (number) of times. */
-    
+
+const topics = ['travels', 'videogames', 'animals'];
